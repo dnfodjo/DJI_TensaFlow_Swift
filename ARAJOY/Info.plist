@@ -19,7 +19,9 @@
 	<key>CFBundleVersion</key>
 	<string>1</string>
 	<key>DJISDKAppKey</key>
-	<string>41d7f217b879a80a8cff7e08</string>
+	<string>732d95c5c228b1f601abc1c3</string>
+	<key>CFBundleDisplayName</key>
+	<string></string>
 	<key>LSApplicationCategoryType</key>
 	<string></string>
 	<key>LSRequiresIPhoneOS</key>
@@ -29,10 +31,10 @@
 		<key>NSAllowsArbitraryLoads</key>
 		<true/>
 	</dict>
-	<key>NSLocationWhenInUseUsageDescription</key>
-	<string>using for filming drones</string>
 	<key>NSCameraUsageDescription</key>
 	<string>Recognize things</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>using for filming drones</string>
 	<key>NSMicrophoneUsageDescription</key>
 	<string>Recognize things</string>
 	<key>UILaunchStoryboardName</key>

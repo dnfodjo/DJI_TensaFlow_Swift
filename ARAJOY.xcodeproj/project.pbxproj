@@ -531,7 +531,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/VideoPreviewer/VideoPreviewer/ffmpeg/lib",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.arajoy.ARAJOY;
+				PRODUCT_BUNDLE_IDENTIFIER = com.arajoy.ARAJOY.renji;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "ARAJOY-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
@@ -553,7 +553,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/VideoPreviewer/VideoPreviewer/ffmpeg/lib",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.arajoy.ARAJOY;
+				PRODUCT_BUNDLE_IDENTIFIER = com.arajoy.ARAJOY.renji;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "ARAJOY-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
