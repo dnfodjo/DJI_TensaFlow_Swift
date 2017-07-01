@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="arajoy-bg" translatesAutoresizingMaskIntoConstraints="NO" id="nrW-Oo-08T">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="667" id="8LR-Df-3FJ"/>
+                                    <constraint firstAttribute="width" constant="375" id="CHp-Y0-Ko0"/>
+                                    <constraint firstAttribute="width" secondItem="nrW-Oo-08T" secondAttribute="height" multiplier="375:667" id="JIs-qU-fSl"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="MgI-gR-qxo">
+                                <rect key="frame" x="58" y="251" width="258" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="6K1-er-sxz"/>
+                                    <constraint firstAttribute="width" constant="258" id="9Z6-9L-zae"/>
+                                    <constraint firstAttribute="width" secondItem="MgI-gR-qxo" secondAttribute="height" multiplier="301:78" constant="65.051282051282044" id="JMv-ll-5Wi"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="MgI-gR-qxo" secondAttribute="trailing" constant="43" id="5wA-9B-tx5"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="nrW-Oo-08T" secondAttribute="bottom" id="QJz-zG-zva"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="nrW-Oo-08T" secondAttribute="trailing" constant="-16" id="e2P-Iw-WSf"/>
+                            <constraint firstItem="nrW-Oo-08T" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="-16" id="hc0-09-FoZ"/>
+                            <constraint firstItem="MgI-gR-qxo" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="42" id="i1s-Nu-dAT"/>
+                            <constraint firstItem="nrW-Oo-08T" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="topMargin" id="jAb-10-O9s"/>
+                            <constraint firstItem="MgI-gR-qxo" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="231" id="kUs-kg-1jg"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="arajoy-bg" width="1920" height="1080"/>
+        <image name="logo" width="526" height="100"/>
+    </resources>
+</document>
