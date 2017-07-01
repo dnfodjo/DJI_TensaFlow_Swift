@@ -570,7 +570,7 @@
                             <constraint firstAttribute="bottom" secondItem="CKA-j9-3Ra" secondAttribute="bottom" constant="46" id="wLi-v0-tUR"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="f5j-Sb-kPf"/>
+                    <navigationItem key="navigationItem" title="Tensor Flow" id="f5j-Sb-kPf"/>
                     <connections>
                         <outlet property="previewView" destination="CKA-j9-3Ra" id="PW9-UQ-hjb"/>
                     </connections>
