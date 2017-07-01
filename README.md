@@ -17,7 +17,7 @@ Return to folder/directory and open ARAJOY.workspace
 
 Go to Xcode->Preferences->Accounts and Add your account if you haven’t done so already
 
-Build the project. (There should be no errors)
+Build the project. (There should be no errors. If there is click on the project(blue colored) click on your target and under signing make sure you have selected your account)
 
 Run on Device. Once you begin running this might show up the first time (follow those instructions):
 
