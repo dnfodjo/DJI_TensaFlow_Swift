@@ -5,13 +5,13 @@ Create an Apple Developer Account if you haven’t done so already
 
 Download project from git
 
-Open ARAJOY.workspace
+Open terminal and change into directory where folder was downloaded to
+
+run command: pod install
+
+Return to folder and open ARAJOY.workspace
 
 Go to Xcode->Preferences->Accounts and Add your account if you haven’t done so already
-
-Click on the the project root (The one colored in blue)
-
-Add to the bundle identifier to make it unique (EX: com.arajoy.ARAJOY_nfodjo)
 
 Build the project. (There should be no errors)
 
